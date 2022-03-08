@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body{
+  width: 100%;
+}
+
+h1{
+  font-size: 3rem;
+  position: relative;
+  top: -3rem;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('/src/assets/sunset.jpg') no-repeat center center/cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  color: aliceblue;
+  font-weight: 700;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 20em;
+  margin: 0 auto;
+}
+
+.top{
+  background-color: rgba(255,255,255, 0.2);
+  border-radius: 12px;
+  width: 100%;
+  height: 80%;
+}
+
+.location{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.temp{
+  font-size: 1.5rem;
+}
+
+.ChangeValue{
+  margin: .5rem 0;
+  background-color: rgba(255,255,255, 0.3);
+  border: none;
+  border-radius: 10px 10px;
+  padding: .3rem 1rem .3rem 1rem;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.description{
+  font-size: 1.2rem;
+  position: relative;
+  top: 20%;
+  right: -90%;
+  transform-origin: 0 0;
+  transform: rotate(269deg);
+}
+
+.bottom{
+  background-color: rgba(255,255,255, 0.2);
+  width: 90%;
+  height: 40em;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  gap: 2rem;
+}
+
+.humidity > i{
+  color: aquamarine;
+}
+
+.cardWeather{
+  width: 100%;
+  height: 50vh;
+  /* background-color: aqua; */
+}
+
+
